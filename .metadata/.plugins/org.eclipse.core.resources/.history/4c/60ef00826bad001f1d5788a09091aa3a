@@ -1,0 +1,10 @@
+package Entities;
+
+public class Vehicle {
+	
+	private VehicleType vehicleType;
+	private String RegnNo;
+	private String color;
+	
+
+}

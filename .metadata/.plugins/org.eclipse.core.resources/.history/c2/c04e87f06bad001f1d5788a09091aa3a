@@ -1,0 +1,9 @@
+package Entities;
+
+public class VehicleSpace {
+	
+	private int spaceNo;
+	private boolean availability;
+	private VehicleType vehicleType;
+
+}

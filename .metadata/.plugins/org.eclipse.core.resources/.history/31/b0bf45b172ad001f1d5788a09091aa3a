@@ -1,0 +1,5 @@
+package costing;
+
+public class CostStrategy {
+
+}

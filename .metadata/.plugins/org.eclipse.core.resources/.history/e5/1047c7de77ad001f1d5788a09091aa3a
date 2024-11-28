@@ -1,0 +1,28 @@
+package Entities;
+
+import java.util.List;
+
+public class Floor {
+	
+	private int floorNo;
+	private List<VehicleSpace> vehicleSpaces;
+	
+	public Floor(int floorNo, List<VehicleSpace> vehicleSpaces) {
+		super();
+		this.floorNo = floorNo;
+		this.vehicleSpaces = vehicleSpaces;
+	}
+	public int getFloorNo() {
+		return floorNo;
+	}
+	public void setFloorNo(int floorNo) {
+		this.floorNo = floorNo;
+	}
+	public List<VehicleSpace> getVehicleSpaces() {
+		return vehicleSpaces;
+	}
+	public void setVehicleSpaces(List<VehicleSpace> vehicleSpaces) {
+		this.vehicleSpaces = vehicleSpaces;
+	}
+
+}

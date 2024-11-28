@@ -1,0 +1,24 @@
+package Repositories;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import Entities.Floor;
+
+public class FloorRepository {
+
+	private List<Floor> floors = new ArrayList<>();
+
+    public void saveFloor(Floor floor) {
+        floors.add(floor);
+    }
+
+    public Floor getFloorByNumber(int floorNo) {
+    	for (Floor floor : floors) {
+            if (floor.getFloorNo() == floorNo) {
+                return floor;
+            }
+        }
+        return null;
+    }
+}

@@ -1,0 +1,36 @@
+package Entities;
+
+import costing.CostStrategy;
+
+public class ParkingLot {
+
+	private int noOfFloors;
+	private int noOfSpaces;
+	private CostStrategy costStrategy;
+	
+	
+	public ParkingLot(int noOfFloors, int noOfSpaces, CostStrategy costStrategy) {
+		super();
+		this.noOfFloors = noOfFloors;
+		this.noOfSpaces = noOfSpaces;
+		this.costStrategy = costStrategy;
+	}
+	public int getNoOfFloors() {
+		return noOfFloors;
+	}
+	public void setNoOfFloors(int noOfFloors) {
+		this.noOfFloors = noOfFloors;
+	}
+	public int getNoOfSpaces() {
+		return noOfSpaces;
+	}
+	public void setNoOfSpaces(int noOfSpaces) {
+		this.noOfSpaces = noOfSpaces;
+	}
+	public CostStrategy getCostStrategy() {
+		return costStrategy;
+	}
+	public void setCostStrategy(CostStrategy costStrategy) {
+		this.costStrategy = costStrategy;
+	}
+}

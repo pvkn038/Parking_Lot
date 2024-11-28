@@ -1,0 +1,9 @@
+package Entities;
+
+public enum VehicleType {
+	BIKE,
+	CAR,
+	SPORTSCAR,
+	TRUCK,
+	BUS
+}
